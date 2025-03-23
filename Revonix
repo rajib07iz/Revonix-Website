@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revonix Mobile Repair</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Website Header -->
+    <header>
+        <h1>Welcome to Revonix</h1>
+        <p>Expert Mobile Repair Service</p>
+    </header>
+
+    <!-- Services Section -->
+    <section>
+        <h2>Our Services</h2>
+        <ul>
+            <li>✔️ Screen Replacement</li>
+            <li>✔️ Battery Replacement</li>
+            <li>✔️ Water Damage Repair</li>
+            <li>✔️ Software Fix</li>
+            <li>✔️ Charging Port Repair</li>
+        </ul>
+    </section>
+
+</body>
+</html>
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+section {
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    background: lightgray;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+window.onload = function() {
+    alert("Welcome to Revonix - Expert Mobile Repair!");
+};
